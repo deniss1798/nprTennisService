@@ -243,15 +243,15 @@ h2{
   clear:both;
   word-wrap: break-word;
   height: auto;
- /* чтобы кнопки не переносились на новую строку */
+ /* чтобы кнопки не переносились на новурю строку */
 }
 .sek {
   display:inline-block;
   flex-direction: column;
   align-items: center;
-  position: relative;
 
-    margin-right: 70%;
+    padding-right: 18px;
+
 }
 .vs {
   display:inline-block;
