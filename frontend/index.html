@@ -8,15 +8,21 @@
    </head>
    <body onload="printBtn();">
       <header>
-         <h1>WORLD TENNIS SPUTNIK RATING</h1>
+      <div class="logo">
+       <img src="logo.png">
+       </div>
+
       </header>
+    
+             
       <div id="array" class="array">
+               
       </div>
       <div id='forma'>
          <h2 class="h1">Результат матча</h2>
          <form>
             <div class="sek">
-               <input type="number" id="score1" name="score1" min="1" max="2" required/>
+               <input type="number" id="score1" name="score1" min="0" max="2" required/>
                <br>
                <div class="span">
                   <span id="player1" class="player-inputs"></span>
@@ -27,7 +33,7 @@
                <h1>VS</h1>
             </div>
             <div class="sek">
-               <input type="number" id="score2" name="score2" min="1" max="2" required / >
+               <input type="number" id="score2" name="score2" min="0" max="2" required / >
                <br>
                <div class="span">
                   <span id="player2" class="player-inputs"></span>
